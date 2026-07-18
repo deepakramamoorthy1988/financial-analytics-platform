@@ -32,3 +32,13 @@ variable "key_vault_name" {
   description = "Azure Key Vault Name"
   type        = string
 }
+
+variable "app_service_plan_name" {
+  description = "Azure App Service Plan Name"
+  type        = string
+}
+
+variable "web_app_name" {
+  description = "Azure Web App Name"
+  type        = string
+}

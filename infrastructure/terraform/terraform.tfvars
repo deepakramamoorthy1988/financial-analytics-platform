@@ -11,3 +11,7 @@ replication_type = "LRS"
 data_factory_name = "financial-adf-dev-001"
 
 key_vault_name = "financial-kv-deepak-001"
+
+app_service_plan_name = "financial-asp-dev"
+
+web_app_name = "financial-webapp-deepak-001"
