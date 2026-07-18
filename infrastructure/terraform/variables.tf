@@ -7,3 +7,18 @@ variable "location" {
   description = "Azure Region"
   type        = string
 }
+
+variable "storage_account_name" {
+  description = "Azure Storage Account Name"
+  type        = string
+}
+
+variable "account_tier" {
+  description = "Storage Tier"
+  type        = string
+}
+
+variable "replication_type" {
+  description = "Replication"
+  type        = string
+}
