@@ -12,3 +12,8 @@ output "data_factory_name" {
   description = "Azure Data Factory Name"
   value       = azurerm_data_factory.adf.name
 }
+
+output "key_vault_name" {
+  description = "Azure Key Vault Name"
+  value       = azurerm_key_vault.kv.name
+}

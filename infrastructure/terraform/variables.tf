@@ -27,3 +27,8 @@ variable "data_factory_name" {
   description = "Azure Data Factory Name"
   type        = string
 }
+
+variable "key_vault_name" {
+  description = "Azure Key Vault Name"
+  type        = string
+}
