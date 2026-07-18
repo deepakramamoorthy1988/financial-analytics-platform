@@ -7,3 +7,5 @@ storage_account_name = "finanalyticsstorage001"
 account_tier = "Standard"
 
 replication_type = "LRS"
+
+data_factory_name = "financial-adf-dev-001"
