@@ -17,3 +17,13 @@ output "key_vault_name" {
   description = "Azure Key Vault Name"
   value       = azurerm_key_vault.kv.name
 }
+
+output "app_service_plan_name" {
+  description = "Azure App Service Plan Name"
+  value       = azurerm_service_plan.asp.name
+}
+
+output "web_app_url" {
+  description = "Azure Web App URL"
+  value       = azurerm_linux_web_app.webapp.default_hostname
+}
