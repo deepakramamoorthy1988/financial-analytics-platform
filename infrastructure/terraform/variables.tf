@@ -22,3 +22,8 @@ variable "replication_type" {
   description = "Replication"
   type        = string
 }
+
+variable "data_factory_name" {
+  description = "Azure Data Factory Name"
+  type        = string
+}
