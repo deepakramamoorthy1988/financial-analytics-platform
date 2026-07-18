@@ -9,3 +9,5 @@ account_tier = "Standard"
 replication_type = "LRS"
 
 data_factory_name = "financial-adf-dev-001"
+
+key_vault_name = "financial-kv-deepak-001"
